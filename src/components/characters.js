@@ -18,17 +18,16 @@ class Characters extends React.Component {
   }
 
   render() {
-    const characters = this.state;
-    console.log(characters.characters);
+    const characters = this.state.characters;
 
     return (
       <div>
         <h1>Characters Page</h1>
 
         {characters &&
-          characters.characters.map(item => (
+          characters.map(item => (
             <div>
-              <h4>{item.name}</h4>
+              <h4>{item.aliases[0]}</h4>
             </div>
           ))}
       </div>
