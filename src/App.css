@@ -15,4 +15,18 @@ nav {
   display: grid;
   justify-items: center;
   text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
+}
+
+.main-component {
+  font-family: 'Poppins', sans-serif;
+  color: #c5c5c5;
+}
+
+.nav-link a {
+  font-family: 'Special Elite', cursive;
+  color: #c5c5c5;
+  text-decoration: none;
+  font-size: 1.3rem;
 }

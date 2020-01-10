@@ -41,20 +41,20 @@ class App extends React.Component {
       <div className="App">
         <Router>
           <nav>
-            <div>
+            <div className="nav-link">
               <Link to="characters">Characters</Link>
             </div>
-            <div>
+            <div className="nav-link">
               <Link to="houses">Houses</Link>
             </div>
-            <div>
+            <div className="nav-link">
               <Link to="books">Books</Link>
             </div>
           </nav>
           <header className="App-header">
             <h1>Winter is Coming ...</h1>
           </header>
-          <div>
+          <div className="main-component">
             <Switch>
               <Route exact path="/characters">
                 <Characters />
